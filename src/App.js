@@ -4,7 +4,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+
+        <h1>
+        <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
+    </h1>
+    <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,9 +22,6 @@ function App() {
           Aprenda React JS!!!
         </a>
 
-        <p>
-        <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
-    </p>
       <form>
          {/* setar variavel em ambiente teste/dev (via PowerShell)
         ($env:REACT_APP_NOT_SECRET_CODE = "abcdef") -and (npm start)
