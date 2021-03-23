@@ -18,8 +18,9 @@ function App() {
           Learn React
         </a>
 
-        <p></p>
+        <p>
         <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
+    </p>
       <form>
          {/* setar variavel em ambiente teste/dev (via PowerShell)
         ($env:REACT_APP_NOT_SECRET_CODE = "abcdef") -and (npm start)
