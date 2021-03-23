@@ -24,8 +24,7 @@ function App() {
          {/* setar variavel em ambiente teste/dev (via PowerShell)
         ($env:REACT_APP_NOT_SECRET_CODE = "abcdef") -and (npm start)
          */}
-      <input type="text" defaultValue={process.env.REACT_APP_NOT_SECRET_CODE} />
-      <input type="text" defaultValue="HARDCODED" />
+      REACT_APP_NOT_SECRET_CODE: <input type="text" defaultValue={process.env.REACT_APP_NOT_SECRET_CODE} />
       </form>
             </header>
     </div>
