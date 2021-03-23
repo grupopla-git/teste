@@ -24,6 +24,7 @@ function App() {
          {/* setar variavel em ambiente teste/dev (via PowerShell)
         ($env:REACT_APP_NOT_SECRET_CODE = "abcdef") -and (npm start)
          */}
+      Variável de ambiente AWS Amplify<br>
       REACT_APP_NOT_SECRET_CODE: <input type="text" defaultValue={process.env.REACT_APP_NOT_SECRET_CODE} />
       </form>
             </header>
