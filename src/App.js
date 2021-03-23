@@ -17,7 +17,17 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+
+        <p></p>
+        <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
+      <form>
+         {/* setar variavel em ambiente teste/dev (via PowerShell)
+        ($env:REACT_APP_NOT_SECRET_CODE = "abcdef") -and (npm start)
+         */}
+      <input type="text" defaultValue={process.env.REACT_APP_NOT_SECRET_CODE} />
+      <input type="text" defaultValue="HARDCODED" />
+      </form>
+            </header>
     </div>
   );
 }
