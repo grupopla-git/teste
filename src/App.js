@@ -6,7 +6,7 @@ function App() {
     <div className="App">
 
         <h1>
-        <small>Voce está executando em modo <b>{process.env.NODE_ENV}</b>.</small>
+        <small>Voce está executando em modo: <b>{process.env.NODE_ENV}</b>.</small>
     </h1>
     <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
